@@ -45,7 +45,7 @@ Phase 1 focuses on:
 
 ### Initial Findings
 
-- The dataset contains **8,388 raw records** across three generation methods.
+- There are **8,388 raw records** in the dataset.
 - Each raw record contains one human abstract and four AI-generated abstracts.
 - The resulting raw text-instance distribution is:
   - **8,388 Human texts (20%)**
@@ -55,8 +55,7 @@ Phase 1 focuses on:
 - No exact duplicate rows were identified.
 - Three duplicate text occurrences were found in
   `jais_generated_abstract` within the `from_title_and_content` subset.
-- Four JAIS outputs in the same subset contained no alphanumeric characters,
-  indicating malformed generated text.
+- Four JAIS outputs, in the subset had no alphanumeric characters. This shows that the generated text is malformed
 
 ## Project Structure
 
