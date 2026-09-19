@@ -1,1 +1,2 @@
-
+datasets==4.8.5
+pandas==3.0.6
